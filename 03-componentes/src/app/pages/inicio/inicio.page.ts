@@ -15,13 +15,18 @@ export class InicioPage implements OnInit {
   componentes: Components[] = [
     {
       icon: 'american-football-outline',
-      name: 'Action Label',
+      name: 'Action Sheet',
       url: '/action-sheet',
     },
     {
       icon: 'alert-circle-outline',
       name: 'Alertas',
       url: '/alertas',
+    },
+    {
+      icon: 'person-circle-outline',
+      name: 'Avatar',
+      url: '/avatar',
     },
   ];
 
