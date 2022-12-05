@@ -28,6 +28,16 @@ export class InicioPage implements OnInit {
       name: 'Avatar',
       url: '/avatar',
     },
+    {
+      icon: 'radio-button-off-outline',
+      name: 'Botones',
+      url: '/buttons',
+    },
+    {
+      icon: 'card-outline',
+      name: 'Cards',
+      url: '/cards',
+    },
   ];
 
   constructor() {}
